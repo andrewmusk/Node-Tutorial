@@ -2,6 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
+const port = process.env.PORT || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -18,15 +19,17 @@ app.use((req, res, next) => {
 		{
 			console.log('Unable to append to server');
 		}
-	})
+	});
 	next();
 });
 
-app.use((req,res,next)=> {
-	res.render('maintenance.hbs');
-})
+// app.use((req,res,next)=> {
+// 	res.render('maintenance.hbs');
+// 	next();
+// });
 
 app.use(express.static(__dirname + '/public'));
+
 
 
 hbs.registerHelper('getCurrentYear', () => {
@@ -35,7 +38,7 @@ hbs.registerHelper('getCurrentYear', () => {
 
 hbs.registerHelper('screamIt', (text) => {
 	return text.toUpperCase();
-})
+});
 
 app.get('/',(req,res) => {
 	//res.send('<h1>Hello Express! This is Andrew Musk</h1>');
@@ -62,6 +65,6 @@ app.get('/bad',(req,res) => {
 });
 
 
-app.listen(3000, () => {
-	console.log("Server is up and running");
+app.listen(port, () => {
+	console.log(`Server is up and running on ${port}`);
 });
