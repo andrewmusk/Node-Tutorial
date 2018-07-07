@@ -1,0 +1,36 @@
+Nodejs 
+
+It is a javascript runtime built on Chrome's V8 javascript engine. Allows you
+to run javavscript outside of the browser. It is a popular backend language.
+
+It is:
+
+- Event Driven, non-blocking I/O that makes it lightweight and efficient
+	- Non-blocking: While there is an input or output operation, other
+	operations are still able to run.
+- It is single-threaded because it uses non-blocking I/O
+- You could implement tasks in the same time howerver, you need multiple threads
+
+NPM is a large collection of open source libraries
+
+We delete or gitignore the node_modules folder and insted we run
+npm install every time we are going to use a package
+
+nodemon will install the packages
+
+We have the 
+
+Call Stack  -------->>>>>      Node APIs 
+         \                       |||
+          (Event loop)  \        ```
+                Callback Stack
+
+
+
+
+
+Debuggin we use debugger in the code and we run it using either
+
+
+node inspect app.js or
+node --inspect-brk app.js
