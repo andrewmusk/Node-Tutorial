@@ -1,0 +1,37 @@
+{
+    "loanExtId": "3100-1234567",
+    "productExtId": "1000-3001",
+    "reqExtId": "3100-22-9dd9-6666-92cf-18f0ec4b6e04",
+    "loanAmount": "USD 22717.220000000000",
+    "productName": "AUTO_REFI",
+    "programId": 1,
+    "customAttributes": {
+        "PAYOFF_AUTHORIZED_D": "2017-06-04T07:00:00.000Z",
+        "INTEREST_RATE": "0.02117",
+        "BORROWER_EXT_ID": "3100-2178297",
+        "AMORTIZATION_SCHEDULE_GUID": "7d6fb7ba-d051-457a-b100-c47a2dc3c704",
+        "TERM_PERIOD": "60",
+        "ISSUANCE_D": "2018-02-02T07:00:00.000",
+        "LOAN_PAYOFF_AMOUNT": "USD 22717.220000000000",
+        "LS_PRODUCT_NAME": "AUTO_REFI",
+        "STATE_FEE_AMOUNT": "USD 0.000000000000"
+    }
+}
+{
+   "reqExtId":"3100-d2c542dd-9222-4444-92cf-18f0ec4b6abd",
+   "programExtId":"1000-3001",
+   "investmentResultMap":{
+      "1000-123456":"USD 22717.22"
+   },
+   "loanAmount":"USD 22717.22"
+}
+{
+  "processType": "AUTO_REFI",
+  "assetExtId": "3100-1234567",
+  "reqExtId": "f2c54dd8-9289-772-92cf-bbc0ec4b6e0s"
+}
+{
+  "processType": "AUTO_REFI",
+  "assetExtId": "3100-1234567",
+  "reqExtId": "f2c54288-9dd9-9999-9ddf-b22ec4b6e0s"
+}

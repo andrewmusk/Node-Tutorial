@@ -34,3 +34,10 @@ Debuggin we use debugger in the code and we run it using either
 
 node inspect app.js or
 node --inspect-brk app.js
+
+
+We use mocha for testing and use express in the node server stuff
+
+We are also using expect for assertions
+
+We use supertest for testing express app

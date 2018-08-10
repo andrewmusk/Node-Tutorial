@@ -1,0 +1,27 @@
+pi2_tests
+
+Options - Home
+
+- Rent
+--- Monthly Amount
+--- xpath: '//*[text()="Monthly Rent Amount"]'
+- Mortgage
+--- Monthly Amount
+--- xpath: '//*[text()="Monthly Mortgage"]'
+- Own 
+--- Non-visible
+
+
+Employment 
+
+Fields 
+
+Unemployed, Student, Other
+-Source of Income
+-Alternative Phone Number
+
+Retired, Disabled 
+-Alternative phone 
+
+   
+

@@ -64,6 +64,13 @@ app.get('/bad',(req,res) => {
 	});
 });
 
+app.get('/projects',(req,res) => {
+	//res.send('<h1>Hello Express! This is Andrew Musk</h1>');
+	res.render('projects.hbs', {
+		pageTitle: 'Portfolio Page'
+	})
+});
+
 
 app.listen(port, () => {
 	console.log(`Server is up and running on ${port}`);
